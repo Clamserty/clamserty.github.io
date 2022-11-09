@@ -1,0 +1,18 @@
+.description {
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.description h1 {
+    font-size: 80px;
+    /* margin-top: 80px; */
+}
+    .description p {
+    margin: 20px auto;
+    font-weight: 100;
+     line-height: 25px;
+  } 

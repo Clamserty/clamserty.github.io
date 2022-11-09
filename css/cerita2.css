@@ -1,0 +1,81 @@
+.header{
+    color: white;
+    background-color: rgb(58, 58, 58) ;    
+    position: relative;
+    text-align: center;
+    width: 90%;
+    /* left: 50%; */
+    /* top: 130px; */
+    /* transform: translate(-50%,-50%); */
+    margin: 0 auto;
+    padding-top: 130px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 30px;
+    transition: 1s all;
+}
+.header h1{
+    font-size: 80px;
+   
+}
+.header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .header h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .box{
+    color: white;
+    background: linear-gradient( rgb(58, 58, 58) ,rgb(56, 0, 0) );    
+    position: relative;
+    text-align: center;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* left: 50%; */
+    /* top: 130px; */
+    /* transform: translate(-50%,-50%); */
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: 1s all;  }
+  .isi1{
+    color: white;
+    background-color: rgb(56, 0, 0);    
+    position: relative;
+    text-align: center;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* left: 50%; */
+    /* top: 10px; */
+    /* transform: translate(-50%,-50%); */
+    margin: 0 auto;
+    padding-top: 50px;
+    transition: 1s all;
+    /* display: grid;
+    grid-template-columns: 55% auto; */
+  }
+  .isi1 p{
+    font-size: 30px;
+    text-align: justify;
+    text-indent: 4em;
+  }
+  .isi1 img{
+    margin: auto;
+    justify-self: center;
+    display: block;
+    width: 80%;
+  }
+  .foto1{
+    display: grid;
+    grid-template-columns: 55% auto;
+  }
+  .foto2{
+    display: grid;
+    grid-template-columns: auto 55%;
+  }
